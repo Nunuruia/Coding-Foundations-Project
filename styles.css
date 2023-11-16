@@ -1,0 +1,244 @@
+/*Styles*/
+
+body {
+    margin: 0px;
+    background-color: #181717;
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* HEADING WRAPPER */
+.heading-wrapper {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.75fr 1fr 0.5fr 2fr;
+}
+
+/*columna izq*/
+.heading-wrapper > .columna-izq {
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    padding-right: 40px;
+    width: 200px;
+    height: 100px;
+}
+
+.heading-wrapper > .columna-izq img {
+    width: 200px;
+}
+
+/*columna central 1*/
+.heading-wrapper > .columna-central-1 {
+    height: 100px;
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+}
+
+.heading-wrapper > .columna-central-1 h1 {
+    color: yellow;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    display: flex;
+    align-items:self-end;
+    margin-bottom: 4px;
+}
+
+.columna-central-1 > .nav-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-central-1 > .nav-links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: dashed;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    font-size: 20px;
+}
+
+/*columna central 2*/
+.heading-wrapper > .columna-central-2{
+    margin-top: 21px;
+}
+
+.heading-wrapper > .columna-central-2 > .nav-link a {
+    color: grey;
+    text-decoration: dashed;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.heading-wrapper > .columna-central-2 > .nav-link i {
+    color: grey;
+    text-decoration: dashed;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/*columna dch*/
+.columna-dch {
+    display: grid;
+    justify-self: right;
+}
+
+.columna-dch > .botones {
+    display: grid;
+    grid-template-columns: 152px 68px 125px 129px;
+    align-items: center;
+    justify-items: center;
+    padding-right: 11px;
+}
+
+.columna-dch > .botones > .link-boton {
+    text-align: center;
+    background-color: #444242;
+    padding: 17px 27px;
+    border-radius: 5px;
+}
+
+.columna-dch > .botones > .link-boton a {
+    color: white;
+    text-decoration: dashed;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    font-size: 18px;
+}
+
+.columna-dch > .botones > .link-boton i {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.columna-dch > .botones > .icono-lupa i {
+    color: grey;
+    font-size: 2em;
+}
+
+/* MAIN PAGE */
+
+.main-page {
+    display: grid;
+    grid-template-columns: 950px 950px;
+    height: 700px;
+    justify-items: right;
+    background: linear-gradient(to bottom right, #444242, #141414);
+}
+
+.main-page > .columna-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 566px;
+    justify-items: center;
+    align-self: center;
+    padding: 8px 66px;
+}
+
+.main-page > .columna-1 h1 {
+    font-size: 45px;
+}
+
+.main-page > .columna-1 i {
+    color: rgb(224, 193, 15);
+}
+
+.main-page > .columna-1 h2 {
+    font-size: 35px;
+    color: rgb(192, 188, 188);
+    line-height: 1.5;
+}
+
+.main-page > .columna-1 > .botones-wrapper {
+    display: grid;
+    grid-template-columns: 383px 432px;
+    align-items: center;
+    justify-items: self-start;
+}
+
+.main-page > .columna-1 > .botones-wrapper > .link-boton {
+    text-align: center;
+    background-color: #181717;
+    padding: 17px 21px;
+    border-radius: 5px;
+}
+
+.main-page > .columna-1 > .botones-wrapper > .link-boton a {
+    color: white;
+    text-decoration: dashed;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    font-size: 40px;
+}
+
+.main-page > .columna-1 > .botones-wrapper > .link-boton-sign-up {
+    text-align: center;
+    background-color: rgb(84, 177, 84);
+    padding: 17px 21px;
+    border-radius: 5px;
+}
+
+.main-page > .columna-1 > .botones-wrapper > .link-boton-sign-up a {
+    color: black;
+    text-decoration: dashed;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -1px;
+    font-size: 40px;
+}
+
+.main-page > .columna-2 {
+    align-self: flex-end;
+}
+
+.main-page > .columna-2 img {
+    width: 700px;
+}
+
+.main-page > .columna-2 h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-page > .columna-2 h1 > .codepen {
+    color: rgb(47, 200, 238);
+}
+
+/*FOOTER*/
+
+.footer {
+    color: white;
+    justify-items: center;
+    background-color: #444242;
+    width: 100%;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: grey solid 2px;
+    padding: 12px;
+}
+
+.mayusc {
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -2px;
+}
